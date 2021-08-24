@@ -3,7 +3,8 @@ describe("sign in", () => {
       cy.visit("http://localhost:4200");
     //   cy.get(selectors.usernameInput).type("test");
     //   cy.get(selectors.signInPasswordInput).type("@Test123");
-    //   cy.get(selectors.signInSignInButton).contains('Sign In').click();
+    //   cy.get(selectors.signInSignInButton).contains('Sign In').click(); 
+    
     });
   });
 
