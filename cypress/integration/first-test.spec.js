@@ -4,7 +4,7 @@ describe("sign in", () => {
     //   cy.get(selectors.usernameInput).type("test");
     //   cy.get(selectors.signInPasswordInput).type("@Test123");
     //   cy.get(selectors.signInSignInButton).contains('Sign In').click();  
-
+ 
     });
   });
 
