@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
     const url = "http://nodebff-env-1.eba-pn2xek6t.ap-south-1.elasticbeanstalk.com/user";
     this.http.get("/api/user").subscribe(data => {
       console.log(data);
-      this.appname = data.toString();
+      this.appname = data.toString(); 
     });
     this.createForm = this.fb.group({
       'name': ['', Validators.required],
