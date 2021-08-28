@@ -7,6 +7,7 @@ import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import Amplify from "aws-amplify";
 import awsconfig from "../aws-exports";
+import { HttpClientModule } from '@angular/common/http';
 
 Amplify.configure(awsconfig);
 @NgModule({
@@ -18,7 +19,8 @@ Amplify.configure(awsconfig);
     AppRoutingModule,
     AmplifyUIAngularModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
