@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
           const httpOptions = {
             headers: new HttpHeaders({
               'Content-Type':  'application/json',
-              'authorization': data.payload.data.signInUserSession.idToken.jwtToken,
+              'authorization': data.payload.data.signInUserSession.accessToken.jwtToken,
             //   "Access-Control-Allow-Headers" : "Content-Type",
             // "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
             // "Access-Control-Allow-Origin": "http://localhost:4200"
